@@ -1,7 +1,7 @@
 {
   "name": "sql",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@hapi/hapi": "^20.1.5"
+    "@hapi/hapi": "^20.1.5",
+    "dotenv": "^8.6.0",
+    "fs-extra": "^9.1.0",
+    "mssql": "^6.3.2"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
